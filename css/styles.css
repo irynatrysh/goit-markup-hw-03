@@ -178,7 +178,7 @@
         max-width: 496px;
     }
 
-    .button {
+    .hero-button {
         background: var(--color-iris);
         color: var(--color-white);
         font-family: 'Roboto', sans-serif;
@@ -204,7 +204,7 @@
 
     /* About us section */
     
-    .feature {
+    .list-feature {
       display: flex;
       gap: 24px;
       padding: 120px 0;
@@ -318,6 +318,7 @@
       font-weight: 400;
       font-size: 16px;
       line-height: 1.5;
+      text-align: center;
     }
 
     .team-list {
@@ -345,6 +346,13 @@
       font-style: normal;
       padding-top: 16px;
       padding-bottom: 50px;
+    }
+
+    .link-header-logo {
+        display: inline-block;
+        margin-bottom: 16px;
+        margin-right: 76px;
+        padding: 24px 0;
     }
 
     /* Portfolio */
@@ -387,6 +395,13 @@
       display: flex;
       flex-wrap: wrap;
       gap: 24px;
+      row-gap: 48px;
+    }
+
+    .list-gallery{
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
       row-gap: 48px;
     }
 
