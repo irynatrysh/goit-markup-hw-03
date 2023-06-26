@@ -92,12 +92,11 @@
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        padding: 24px 0;
         color: var(--color-iris);
         text-decoration: none;
         text-transform: uppercase;
         display: inline-block;
-        padding: 24px 0;
-    
     }
         
     .header-list {
@@ -362,6 +361,11 @@
     }
 
     /* Portfolio */
+
+    .link-nav {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 
     .section-main {
       padding: 96px 0 120px 0;
