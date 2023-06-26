@@ -70,8 +70,6 @@
 
     /* Header styles */
     .header {
-      padding-top: 24px;
-      padding-bottom: 24px;
       border-bottom: 1px solid #e7e9fc;
     }
     
@@ -98,6 +96,7 @@
         text-decoration: none;
         text-transform: uppercase;
         display: inline-block;
+        padding: 24px 0;
     
     }
         
@@ -105,7 +104,6 @@
       display: flex;
       align-items: center;
       gap: 40px;
-      padding: 24px 0 24px;
     }
 
     .header-item {
@@ -356,13 +354,11 @@
 
     .page-footer .text {
       width: 264px;
-      height: 72px;
       color: #f4f4fd;
       font-size: 16px;
       line-height: 1.5;
       font-style: normal;
-      padding-top: 16px;
-      padding-bottom: 50px;
+      margin: 0;
     }
 
     /* Portfolio */
